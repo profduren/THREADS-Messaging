@@ -17,13 +17,11 @@
 *.pch
 
 # Libraries
-*.lib
 *.a
 *.la
 *.lo
 
 # Shared objects (inc. Windows DLLs)
-*.dll
 *.so
 *.so.*
 *.dylib
@@ -41,6 +39,17 @@
 *.su
 *.idb
 *.pdb
+
+# build files
+*.tlog
+*.lastbuildstate
+*.log
+*.iobj
+*.recipe
+*.FileListAbsolute.txt
+
+# specific libs
+InternalLib/*
 
 # Kernel Module Compile Results
 *.mod*
